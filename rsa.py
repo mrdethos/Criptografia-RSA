@@ -13,7 +13,7 @@ def check_prime(n):
     if (i == n):
         return True
 
-
+# Verifica se o número é co-primo.
 def is_coprime(a, b):
     while b != 0:
         a, b = b, a % b
@@ -21,7 +21,7 @@ def is_coprime(a, b):
         return True
     return False
 
-
+# Pega o modular inverso do número.
 def mod_inverse(a, b):
     a = a % b
     i = 1
